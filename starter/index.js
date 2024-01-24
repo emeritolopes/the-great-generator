@@ -88,6 +88,13 @@ const questions = [
     }
 ];
 
+let title;
+let fileName;
+
+const titleQuestion = {
+    type: 'input',
+    message: 'Please, type the name of your project',
+    name: 'title',
 // function to write README file
 function writeToFile(fileName, data) {
 }

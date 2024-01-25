@@ -12,11 +12,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please give your logo information.",
-        name: "logo"
-    },
-    {
-        type: "input",
         message: "What is your GitHub user name?",
         name: "userName"
     },
@@ -49,7 +44,7 @@ const questions = [
 
     },
     {
-        type: "input",
+        type: "confirm",
         message: "Please state if others can contribute.",
         name: "contribute"
     },
@@ -125,7 +120,49 @@ function init() {
     console.log("With this command-line application you can generate a README file.");
     console.log("Please, press Enter after entering the information you need to be displayed in the README file.")
     console.log("To skip a section, please leave it blank.")
-  writeToFile()
+//   writeToFile()
+
+    inquirer.prompt(questions)
+    .then(answers => {
+        const template = `
+# ${answers.title}
+
+## Description
+${answers.description}
+
+## About Author
+- Github:  ${answers.GitHub}
+- Email: ${answers.email}
+
+## License
+- ${answers.license}
+
+## Contributors
+${answers.contribute ? "You can contribute by sending me an email" : "Currently not accepting contributions"}
+
+## Tests
+- ${answers.test}
+- ${answers.test2}
+- ${answers.test3}
+
+## Accomplished
+- ${answers.accomplish}
+
+## Screenshots
+- ![screenshot1](${answers.scriptjs})
+- ![screenshot2](${answers.fileGnerator})
+- ![screenshot3](${answers.ReadMe})
+
+## References
+- ${answers.ref1}
+- ${answers.ref2}
+
+## Goal
+- ${answers.endgoal}
+        `
+
+        writeToFile("output.md", template)
+    })
 
 }
 

@@ -16,12 +16,17 @@ This command-line application dynamically generates a professional README.md fil
 ## Table of contents
 
 
-   * [Installation](#installation)
-   * Usage 
-   * License 
-   * Contributing 
-   * Tests 
-   * Questions
+[Installation](#installation)
+
+[Usage](#usage)
+
+[License](#license)
+
+[Contribution](#contribution)
+
+[Testing](#testing)
+
+[Questions](#questions)
 
      
 ## Installation
@@ -44,15 +49,15 @@ With this program, the user can add the following sections to the README file:
 
 ## License
 
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Contribution
 
 Feel free to contribute to this public repository. Just fork it!
 
+## Testing
 
-## Testing
 
 I had been testing the code for any new functionality added. If you find any  issues please, contact me.
 

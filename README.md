@@ -16,7 +16,7 @@ This command-line application dynamically generates a professional README.md fil
 ## Table of contents
 
 
-   * Installation 
+   * [Installation](Installation) 
    * Usage 
    * License 
    * Contributing 

@@ -1,36 +1,36 @@
 
-# wwerwe
+# The Great Generator
 
 ## Description
-wer
+A command-line application that dynamically generates a professional README.md file from a user's input
 
 ## About Author
-- Github:  undefined
-- Email: werwer
+- Github:  https://github.com/emeritolopes/
+- Email: emeritolopesvieira@gmail.com
 
 ## License
-- BSD 3
+- MIT
 
 ## Contributors
 You can contribute by sending me an email
 
 ## Tests
-- sdfds
-- sdfsf
-- sfd
+- n/a
+- n/a
+- n/a
 
 ## Accomplished
-- undefined
+- Make it work!
 
 ## Screenshots
-- ![screenshot1](sdf)
-- ![screenshot2](d)
-- ![screenshot3](d)
+- ![screenshot1]()
+- ![screenshot2]()
+- ![screenshot3]()
 
 ## References
-- sdf
-- sdf
+- 
+- 
 
 ## Goal
-- sdf
+- 
         

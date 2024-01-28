@@ -1,7 +1,7 @@
 # The Great Generator ( README-GENERATOR)
 ## Objective
 
-This is a command-line application that dynamically generates a professional README.md file from a user's input.
+This command-line application dynamically generates a professional README.md file from a user's input.
 
 ## User Story
 
@@ -13,32 +13,52 @@ This is a command-line application that dynamically generates a professional REA
 * I want to enter my GitHub, email address and then this is added to the section of the README.
 
 
-## Acceptance Criteria
+## Table of contents
 
-* Create a command-line application that accepts user input.
-  * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
-    * Sections entitled:
-      * Description 
-      * Table of Contents 
-      * Installation 
-      * Usage 
-      * License 
-      * Contributing 
-      * Tests 
-      * Questions
-    * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
+
+   * Installation 
+   * Usage 
+   * License 
+   * Contributing 
+   * Tests 
+   * Questions
+
+     
+## Installation
+
+First, download the repo's contents and extract them if you need them.
+
+Using Git bash or a similar command line interface, navigate to the downloaded files folder.
+
+Type in "npm install", press Enter and wait for the necessary files to get installed
+
+Run the program by typing "node index" and pressing Enter
+
+
+## Usage
+
+When launching the program, a set of basic instructions will be displayed before the first question, explaining how the user can navigate it.
+
+With this program, the user can add the following sections to the README file:
+
+
+## License
+
+MIT
+
 
 ## Contribution
 
 Feel free to contribute to this public repository. Just fork it!
 
 
+## Testing
+
+I had been testing the code for any new functionality added. If you find any  issues please, contact me.
+
+## Questions
+
+If you have any questions regarding this project, please contact me at emeritolopesvieira@gmail.com.
 
 ## SCREENSHOTS
 

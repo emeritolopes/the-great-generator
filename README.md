@@ -1,91 +1,76 @@
-# Module 11 Challenge: Professional README Generator
+# The Great Generator ( README-GENERATOR)
+## Objective
 
-## Your Task
-
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
-
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
-
-The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
+This command-line application dynamically generates a professional README.md file from a user's input.
 
 ## User Story
 
-* As a developer, I want a README generator so that I can quickly create a professional README for a new project
-
-## Acceptance Criteria
-
-* Create a command-line application that accepts user input.
-  * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
-    * Sections entitled:
-      * Description 
-      * Table of Contents 
-      * Installation 
-      * Usage 
-      * License 
-      * Contributing 
-      * Tests 
-      * Questions
-    * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
-
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
-## Grading Requirements
-
-This Challenge is graded based on the following criteria: 
-
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Technical Acceptance Criteria: 55%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 25%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
+* As A developer I WANT a README generator SO THAT I can quickly create a professional README for a new project
+* I want to be prompted for information about my application repository.
+* I want the title of my project.
+* I want the Description of my project.
+* I want the file to display a table of Contents, Installation, License, Contribution, Tests Instructions, and Questions.
+* I want to enter my GitHub, email address and then this is added to the section of the README.
 
 
-## Review
+## Table of contents
 
-You are required to submit the following for review:
 
-* A walkthrough video demonstrating the functionality of the application.
+[Installation](#installation)
 
-* A sample README.md file for a project repository generated using your application
+[Usage](#usage)
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+[License](#license)
 
+[Contribution](#contribution)
+
+[Testing](#testing)
+
+[Questions](#questions)
+
+     
+## Installation
+
+First, download the repo's contents and extract them if you need them.
+
+Using Git bash or a similar command line interface, navigate to the downloaded files folder.
+
+Type in "npm install", press Enter and wait for the necessary files to get installed
+
+Run the program by typing "node index" and pressing Enter
+
+
+## Usage
+
+When launching the program, a set of basic instructions will be displayed before the first question, explaining how the user can navigate it.
+
+With this program, the user can add the following sections to the README file:
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
+## Contribution
+
+Feel free to contribute to this public repository. Just fork it!
+
+## Testing
+
+
+I had been testing the code for any new functionality added. If you find any  issues please, contact me.
+
+## Questions
+
+If you have any questions regarding this project, please contact me at emeritolopesvieira@gmail.com.
+
+## SCREENSHOTS
+
+
+![Screenshot 2024-01-25 at 23 31 52](https://github.com/emeritolopes/the-great-generator/assets/101825132/8e60a2c7-6bba-4c1f-8bf9-dc37b1e2f5b0)
+
+https://github.com/emeritolopes/the-great-generator
 ---
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
